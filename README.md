@@ -248,3 +248,4 @@ volumes:
 ## Security Note
 
 The container runs with a non-root user (`aiuser`) that has sudo access without password. This is convenient for development but should not be used in production environments.
+# genai-sandbox
