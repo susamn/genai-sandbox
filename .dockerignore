@@ -1,0 +1,5 @@
+README.md
+.git
+.gitignore
+quick-start.sh
+docker-compose.yml

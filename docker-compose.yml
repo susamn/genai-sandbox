@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  genai-sandbox:
+    container_name: genai-sandbox
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: genai-sandbox:1.0
+    volumes:
+      - ${HOME}/workspace/genai:/home/aiuser/workspace
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    working_dir: /home/aiuser/workspace

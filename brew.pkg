@@ -1,0 +1,36 @@
+# Homebrew packages
+# Note: Prefer apt packages where available (see platform.pkg)
+# Only add packages here that aren't available in Ubuntu repos
+
+# Git tools
+lazygit
+lazydocker
+git-delta
+
+# File managers and utilities
+lf
+lsd
+yazi
+zoxide
+
+# Terminal utilities
+tmux-sessionizer
+tms
+procs
+
+# Media tools
+yt-dlp
+
+# Text and data processing
+yq
+glow
+
+# Security and encryption
+gnupg
+
+# Infrastructure tools
+terraform
+chezmoi
+
+# Monitoring
+spark
